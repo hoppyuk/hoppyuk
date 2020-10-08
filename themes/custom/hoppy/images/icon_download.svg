@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="27px" viewBox="0 0 25 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>265827ED-B0AB-4557-97CF-68491EB2C313</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Widgets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Manage-your-home" transform="translate(-676.000000, -2074.000000)" fill="#FFFFFF">
+            <g id="button/wIcon/upload" transform="translate(412.000000, 2056.000000)">
+                <g id="icon/download" transform="translate(262.000000, 12.000000)">
+                    <path d="M23.75325,17.973 L23.75325,17.973 C23.36225,17.582 22.73025,17.582 22.33925,17.973 L15.52225,24.789 L15.52225,7 C15.52225,6.449 15.07325,6 14.52225,6 C13.96925,6 13.52225,6.449 13.52225,7 L13.52225,25.121 L6.70725,18.307 C6.31625,17.916 5.68425,17.916 5.29325,18.307 C4.90225,18.698 4.90225,19.33 5.29325,19.721 L13.64925,28.077 C14.03925,28.467 14.67225,28.467 15.06325,28.077 L23.75325,19.387 C24.14425,18.996 24.14425,18.364 23.75325,17.973" id="Fill-1" transform="translate(14.523250, 17.184750) rotate(-180.000000) translate(-14.523250, -17.184750) "></path>
+                    <path d="M25,31 L4,31 L4,26 C4,25.4477153 3.55228475,25 3,25 C2.44771525,25 2,25.4477153 2,26 L2,33 L27,33 L27,26 C27,25.4477153 26.5522847,25 26,25 C25.4477153,25 25,25.4477153 25,26 L25,31 Z" id="Path-2" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

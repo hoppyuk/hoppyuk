@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/edit@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard---more-tasks---my-tasks" transform="translate(-1214.000000, -578.000000)" fill="#2A2A2A" fill-rule="nonzero">
+            <g id="Tasks" transform="translate(95.000000, 210.000000)">
+                <g id="Task/-Copy" transform="translate(74.000000, 346.000000)">
+                    <g id="Edit" transform="translate(1003.000000, 22.000000)">
+                        <g id="icon/edit">
+                            <path d="M55.4683325,4 L60,8.24772786 L48.5290982,19 L44,14.7522721 L55.4683325,4 Z M63.5609826,2.58701945 L61.6081256,0.581343409 C60.8534138,-0.193781136 59.6279177,-0.193781136 58.8706418,0.581343409 L57,2.50258049 L61.378981,7 L63.5609826,4.75898172 C64.1463391,4.15775126 64.1463391,3.18820811 63.5609826,2.58701945 Z M42.0133064,20.4555234 C41.9262851,20.7770985 42.2798814,21.0652462 42.6715663,20.987042 L48,19.9262309 L43.2209828,16 L42.0133064,20.4555234 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

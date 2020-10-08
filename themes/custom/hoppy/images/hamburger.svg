@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>FA92A2E8-3EDF-464A-B320-07CD6D273EEA@3x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Components-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mega-Menu-r2" transform="translate(-387.000000, -1701.000000)" fill="#1A7AAA">
+            <g id="Mega-Menu-/-mobile-/-search" transform="translate(112.000000, 1680.000000)">
+                <g id="nav-bar/v2/mobile">
+                    <g id="icon/Hamburger" transform="translate(275.000000, 21.000000)">
+                        <g id="Rectangle-4">
+                            <rect x="0" y="0" width="30" height="5.55555582" rx="2.77777791"></rect>
+                            <path d="M2.77777791,12.2222224 L27.2222221,12.2222224 C28.7563465,12.2222224 30,13.4658759 30,15.0000003 L30,15.0000003 C30,16.5341247 28.7563465,17.7777782 27.2222221,17.7777782 L2.77777791,17.7777782 C1.24365353,17.7777782 1.87876051e-16,16.5341247 0,15.0000003 L0,15.0000003 C-1.87876051e-16,13.4658759 1.24365353,12.2222224 2.77777791,12.2222224 Z"></path>
+                            <rect x="0" y="24.4444448" width="30" height="5.55555582" rx="2.77777791"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

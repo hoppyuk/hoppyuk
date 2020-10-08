@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>94058679-D9AA-4473-A5F0-EEF484077D47@3x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M23.7835227,11.8181818 L17.5,11.8181818 L17.5,5.53465909 C17.5,3.99090909 16.2034091,2.72727273 14.6590909,2.72727273 C13.1147727,2.72727273 11.8181818,3.99090909 11.8181818,5.53465909 L11.8181818,11.8181818 L5.53465909,11.8181818 C3.99090909,11.8181818 2.72727273,13.1147727 2.72727273,14.6590909 C2.72727273,16.2034091 3.99090909,17.5 5.53465909,17.5 L11.8181818,17.5 L11.8181818,23.7835227 C11.8181818,25.3272727 13.1147727,26.5909091 14.6590909,26.5909091 C16.2034091,26.5909091 17.5,25.3272727 17.5,23.7835227 L17.5,17.5 L23.7835227,17.5 C25.3272727,17.5 26.5909091,16.2034091 26.5909091,14.6590909 C26.5909091,13.1147727 25.3272727,11.8181818 23.7835227,11.8181818 Z" id="path-1"></path>
+    </defs>
+    <g id="Components-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mega-Menu-r2" transform="translate(-1186.000000, -1291.000000)">
+            <g id="Mega-Menu-/-mobile-/-sub-&gt;-sub" transform="translate(906.000000, 1267.000000)">
+                <g id="nav-bar/v2/mobile" transform="translate(0.000000, -2.000000)">
+                    <g id="icon/Hamburger" transform="translate(275.000000, 21.000000)">
+                        <mask id="mask-2" fill="none">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Shape" fill="white" fill-rule="nonzero" transform="translate(14.659091, 14.659091) rotate(-315.000000) translate(-14.659091, -14.659091) " xlink:href="#path-1"></use>
+                        <g id="fill/task/blue" mask="url(#mask-2)" fill="#1A7AAA">
+                            <g transform="translate(15.000000, 15.000000) rotate(-315.000000) translate(-15.000000, -15.000000) " id="Rectangle">
+                                <polygon points="0 0 30 0 30 30 0 30"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="33px" viewBox="0 0 34 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>0047D4D2-3FC7-4E5B-A595-795529422808</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Components-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components---Mobile-" transform="translate(-263.000000, -128.000000)" fill="#333333">
+            <g id="nav-bar/mobile" transform="translate(0.000000, 109.000000)">
+                <g id="icon/close" transform="translate(262.000000, 18.000000)">
+                    <g id="Rectangle-4">
+                        <rect transform="translate(18.000000, 17.500000) rotate(-45.000000) translate(-18.000000, -17.500000) " x="-4" y="15" width="44" height="5" rx="2.5"></rect>
+                        <rect transform="translate(18.000000, 17.500000) rotate(-315.000000) translate(-18.000000, -17.500000) " x="-4" y="15" width="44" height="5" rx="2.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

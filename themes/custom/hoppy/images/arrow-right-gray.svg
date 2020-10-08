@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="15px" viewBox="0 0 9 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60.1 (101010) - https://sketch.com -->
+    <title>2D5F200E-DAFF-4BD3-8B03-777FCE253D1B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M9.75563713,7.91469988 L2.9383212,1.2396322 C2.78064501,1.08512126 2.57016099,1 2.34572773,1 C2.12129447,1 1.91081045,1.08512126 1.75313425,1.2396322 L1.25108627,1.73109162 C0.924400118,2.05133292 0.924400118,2.57181649 1.25108627,2.89156999 L6.97575348,8.49689027 L1.24473438,14.10843 C1.08705818,14.262941 1,14.4689149 1,14.6885472 C1,14.9084235 1.08705818,15.1143974 1.24473438,15.2690303 L1.74678236,15.7603678 C1.90458311,15.9148787 2.11494258,16 2.33937584,16 C2.5638091,16 2.77429312,15.9148787 2.93196932,15.7603678 L9.75563713,9.07920261 C9.91368696,8.92420387 10.0004961,8.71725433 10,8.49725612 C10.0004961,8.27640426 9.91368696,8.06957667 9.75563713,7.91469988 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="See-results-button/See-results-2" transform="translate(-206.000000, -24.000000)">
+            <g id="Group">
+                <g id="icon/arrow-right" transform="translate(205.000000, 23.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use fill="#4c4c4c" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

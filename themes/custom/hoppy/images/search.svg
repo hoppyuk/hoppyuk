@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>1FE88877-1095-467F-92CC-F282917F116F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M32.3601151,30.0162234 L25.5419681,23.0842643 C25.5057327,23.0474234 25.4632283,23.021673 25.4253629,22.9873816 C26.7669501,20.918298 27.5499606,18.441542 27.5499606,15.7780319 C27.5499606,8.53260622 21.7729857,2.65909091 14.6467752,2.65909091 C7.52056469,2.65909091 1.74358974,8.53260622 1.74358974,15.7779044 C1.74358974,23.0230752 7.52043931,28.896718 14.6466498,28.896718 C17.2665064,28.896718 19.7024276,28.1006224 21.7375026,26.7366156 C21.7712303,26.7749863 21.7964321,26.8182011 21.8326675,26.855042 L28.6509398,33.787256 C29.6751853,34.8284904 31.3357443,34.8284904 32.3601151,33.787256 C33.3842351,32.7458942 33.3842351,31.0575852 32.3601151,30.0162234 Z M14.384677,23.9318182 C9.81052058,23.9318182 6.1025641,20.1618972 6.1025641,15.5114263 C6.1025641,10.8608301 9.81064376,7.09090909 14.384677,7.09090909 C18.958587,7.09090909 22.6666667,10.8609553 22.6666667,15.5114263 C22.6666667,20.1618972 18.958587,23.9318182 14.384677,23.9318182 Z" id="path-1"></path>
+    </defs>
+    <g id="Components-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mega-Menu-" transform="translate(-877.000000, -48.000000)">
+            <g id="Header/megamenu">
+                <g id="Header/">
+                    <g id="serch-" transform="translate(513.000000, 37.000000)">
+                        <g id="icon/search" transform="translate(363.000000, 9.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="fill/task/yellow" mask="url(#mask-2)" fill="#F9EA09">
+                                <rect id="Rectangle" x="0" y="0" width="34" height="39"></rect>
+                            </g>
+                            <g id="musica-searcher-(2)" mask="url(#mask-2)">
+                                <g transform="translate(-3.487179, 4.431818)"></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>2076FB86-6A59-425C-BCFB-2FCE4CC02D85</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12.353,5.33333333 L8.66666667,5.33333333 L8.66666667,1.647 C8.66666667,0.741333333 7.906,0 7,0 C6.094,0 5.33333333,0.741333333 5.33333333,1.647 L5.33333333,5.33333333 L1.647,5.33333333 C0.741333333,5.33333333 0,6.094 0,7 C0,7.906 0.741333333,8.66666667 1.647,8.66666667 L5.33333333,8.66666667 L5.33333333,12.353 C5.33333333,13.2586667 6.094,14 7,14 C7.906,14 8.66666667,13.2586667 8.66666667,12.353 L8.66666667,8.66666667 L12.353,8.66666667 C13.2586667,8.66666667 14,7.906 14,7 C14,6.094 13.2586667,5.33333333 12.353,5.33333333 Z" id="path-1"></path>
+    </defs>
+    <g id="Components-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components---Desktop" transform="translate(-307.000000, -1477.000000)">
+            <g id="text-link/icon" transform="translate(307.000000, 1472.000000)">
+                <g id="icon/add" transform="translate(0.000000, 5.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#1A7AAA" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

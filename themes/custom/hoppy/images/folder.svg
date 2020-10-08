@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 4@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Widgets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Car-MOT" transform="translate(-952.000000, -596.000000)">
+            <g id="Group-4" transform="translate(952.000000, 596.000000)">
+                <g id="Group-3" fill="#FAE920">
+                    <circle id="Oval" cx="10.5" cy="10.5" r="10.5"></circle>
+                </g>
+                <path d="M10.2581432,6.60531808 C10.2581432,6.27101083 9.98214014,6 9.64164972,6 L6.61646845,6 C6.27600303,6 6,6.27101083 6,6.60531808 L6,8.21279678 L6,14.3946574 C6,14.7289646 6.27600303,15 6.61646845,15 L15.3835065,15 C15.723972,15 16,14.7289646 16,14.3946574 L16,8.414815 C16,8.08048319 15.723972,7.80947237 15.3835065,7.80947237 L10.8746366,7.80947237 C10.5341712,7.80947237 10.2581432,7.53846154 10.2581432,7.20412974 L10.2581432,6.60531808 Z" id="Fill-34" stroke="#1A7AAA" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

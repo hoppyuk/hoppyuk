@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/calendar@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.5,38 C10.3873016,38 3,30.6126984 3,21.5 C3,12.3873016 10.3873016,5 19.5,5 C28.6126984,5 36,12.3873016 36,21.5 C36,30.6126984 28.6126984,38 19.5,38 Z M19.5,35 C21.4329966,35 23,33.4329966 23,31.5 C23,29.5670034 21.4329966,28 19.5,28 C17.5670034,28 16,29.5670034 16,31.5 C16,33.4329966 17.5670034,35 19.5,35 Z M19.5,8 C18.1192881,8 17,9.11928813 17,10.5 L17,23.5 C17,24.8807119 18.1192881,26 19.5,26 C20.8807119,26 22,24.8807119 22,23.5 L22,10.5 C22,9.11928813 20.8807119,8 19.5,8 Z" id="path-1"></path>
+    </defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard---Edit-task-overlay" transform="translate(-747.000000, -1177.000000)">
+            <g id="icon/calendar" transform="translate(744.000000, 1172.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#EAEAEA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="fill/task/blue" mask="url(#mask-2)" fill="#1A7AAA" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="39" height="44"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

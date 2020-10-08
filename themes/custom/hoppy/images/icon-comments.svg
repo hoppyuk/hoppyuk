@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="15px" viewBox="0 0 17 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon-comments</title>
+    <desc>Created with Sketch.</desc>
+    <g id="New-M=Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Member-page" transform="translate(-1271.000000, -977.000000)" fill="#717171" fill-rule="nonzero">
+            <g id="Group" transform="translate(735.000000, 952.000000)">
+                <g id="Element">
+                    <g id="comment-s" transform="translate(528.000000, 20.000000)">
+                        <g id="icon-comments" transform="translate(8.000000, 5.000000)">
+                            <path d="M1.7,0 L15.3,0 C16.2214,0 17,0.736071429 17,1.60714286 L17,10.4464286 C17,11.3175 16.2214,12.0535714 15.3,12.0535714 L7.20856667,12.0535714 L4.45966667,14.9124107 C4.4047,14.9691964 4.3282,15 4.25,15 C4.21571667,15 4.18115,14.9941071 4.14771667,14.9820536 C4.03863333,14.9421429 3.96666667,14.8427679 3.96666667,14.7321429 L3.96666667,12.0535714 L1.7,12.0535714 C0.7786,12.0535714 0,11.3175 0,10.4464286 L0,1.60714286 C0,0.736071429 0.7786,0 1.7,0 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

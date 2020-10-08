@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.9 81.9" style="enable-background:new 0 0 81.9 81.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1B7AAA;stroke:#0F3B49;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:#003C4B;}
+	.st2{fill:#D3B902;}
+	.st3{fill:none;stroke:#155F7C;stroke-width:1.5;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#FAE920;stroke:#D3B902;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st6{fill:none;stroke:#155F7C;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<title>Asset 21</title>
+<g id="Layer_2_1_">
+	<g id="Layer_1-2">
+		<polygon class="st0" points="78.8,48 31.8,48 31.8,17.6 42.8,17.6 54.8,9 67.4,17.6 78.8,17.6 		"/>
+		<path class="st1" d="M42.8,19H29.5c-0.5,0.1-1-0.3-1.1-0.9c0-0.4,0.1-0.7,0.4-0.9l5-6.2h17.7L42.8,19z"/>
+		<path class="st1" d="M67.5,19h13.3c0.5,0.1,1-0.3,1.1-0.9c0-0.4-0.1-0.7-0.4-0.9l-5-6.2H58.9L67.5,19z"/>
+		<path class="st2" d="M40.9,55.7c0,5.5-6.4,10-14.2,10s-14.2-4.5-14.2-10V41.5h28.3L40.9,55.7z"/>
+		<line class="st3" x1="34.9" y1="45.3" x2="34.9" y2="70.6"/>
+		<circle class="st3" cx="34.9" cy="72.6" r="2.2"/>
+		<circle class="st4" cx="55.8" cy="23" r="5"/>
+		<rect x="49.8" y="33" class="st1" width="13" height="15"/>
+		<polyline class="st5" points="5.4,37 0.8,39.2 25.8,50.2 50.8,39.2 25.8,27.2 13.1,33.3 		"/>
+		<circle class="st2" cx="9.5" cy="35.1" r="1.1"/>
+		<polyline class="st6" points="72.8,23 56.1,9 39.5,23 		"/>
+	</g>
+</g>
+</svg>

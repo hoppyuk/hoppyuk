@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>button/task/not-done@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Components-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components---Desktop" transform="translate(-138.000000, -1464.000000)" fill="#EAEAEA" stroke="#CACACA">
+            <g id="button/task/not-done" transform="translate(138.000000, 1464.000000)">
+                <circle id="Oval" cx="16.5" cy="16.5" r="16"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
