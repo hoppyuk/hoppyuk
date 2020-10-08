@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://www.hoppy.co.uk/update-goodbye -->
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class=" js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./index_files/cb0f80067f"></script><script src="./index_files/nr-1184.min.js"></script><script type="text/javascript" charset="UTF-8" async="" src="./index_files/state.js"></script><script async="" src="./index_files/fbevents.js"></script><script src="./index_files/bat.js" async=""></script><script type="text/javascript" async="" src="./index_files/f.txt"></script><script type="text/javascript" async="" src="./index_files/uc.js"></script><script type="text/javascript" async="" src="./index_files/analytics.js"></script><script type="text/javascript" async="" src="./index_files/hotjar-665961.js"></script><script type="text/javascript" async="" src="./index_files/js"></script><script async="" src="./index_files/gtm.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"cb0f80067f",applicationID:"167885942"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<script>var dataLayer = [{"drupalLanguage":"en","drupalCountry":"GB","siteName":"Hoppy","entityType":"node","entityBundle":"landing_page","entityId":"1378","entityTitle":"Update - Goodbye","entityLangcode":"en","entityVid":"17925","entityUid":"1","entityCreated":"1601458975","entityStatus":"1","entityName":"Admin W","userUid":0}];</script>
+<meta name="title" content="Update - Goodbye | Hoppy">
+<link rel="canonical" href="https://www.hoppy.co.uk/update-goodbye">
+<meta property="og:image" content="https://www.hoppy.co.uk/sites/default/files/2020-06/copy_of_plain_yellow_banner_mobile-4.png">
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://www.hoppy.co.uk/update-goodbye",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@id": "https://www.hoppy.co.uk/",
+                            "name": "Home",
+                            "url": "https://www.hoppy.co.uk/"
+                        }
+                    }
+                ]
+            },
+            "publisher": {
+                "@id": "https://www.hoppy.co.uk/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.hoppy.co.uk/themes/custom/hoppy/logo.svg"
+                }
+            },
+            "isAccessibleForFree": "True"
+        },
+        {
+            "@type": "Organization",
+            "additionalType": "LocalBusiness",
+            "@id": "Hoppy-organization",
+            "name": "Hoppy",
+            "url": "https://www.hoppy.co.uk/",
+            "telephone": "+44 (0) 203 828 7053",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.hoppy.co.uk/themes/custom/hoppy/logo.svg"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "9:30",
+                "closes": "17:00"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "IDEALondon 69 Wilson Street",
+                "postalCode": "EC2A 2BB",
+                "addressCountry": "UK"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "51.522223",
+                "longitude": "0.084854"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "name": "Hoppy",
+            "url": "https://www.hoppy.co.uk/",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.hoppy.co.uk/search?fulltext={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    ]
+}</script>
+<link rel="shortcut icon" href="https://www.hoppy.co.uk/themes/custom/hoppy/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="revision" href="https://www.hoppy.co.uk/update-goodbye">
+<title>Update - Goodbye | Hoppy</title>
+<script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KBDM446');
+    </script>
+<link rel="stylesheet" media="all" href="./index_files/css_Zysj3KJicY3zCcbdhjfFiMtVzdjRCMqKJlJEINkKWSk.css">
+<link rel="stylesheet" media="all" href="./index_files/css_vXufd62CNOGVVXRwxvar_8JIOB5XTSamcQ08pk--GZI.css">
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_lBn5ofjZrdOUnuDnPNDypMGXg60NJiq1XTMHKQ6DQD4.js"></script>
+<![endif]-->
+<script src="./index_files/js_Cm6E71UGsKdiQGkaDN1elpxvuni8tX23b_Ei5tIiKa0.js"></script>
+<script src="./index_files/tp.widget.bootstrap.min.js" async=""></script>
+<script async="" src="./index_files/modules.8b5df1db44ffdcf36821.js" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><script src="./index_files/f(1).txt"></script><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style></head>
+<body class="layout-no-sidebars page__landing_page path-node node--type-landing-page">
+<a href="https://www.hoppy.co.uk/update-goodbye#main-content" class="visually-hidden focusable skip-link">
+Skip to main content
+</a>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+<div id="sb-site" class="body-inner">
+<div id="highlighted" class="highlighted-area">
+<div class="highlighted__inner">
+<div class="region region-highlighted">
+<div data-drupal-messages-fallback="" class="hidden"></div>
+</div>
+</div>
+</div>
+<header id="page-header">
+<div class="header-elements container">
+<div class="logo-region">
+<div class="region region-logo">
+<a class="logo navbar-btn" href="https://www.hoppy.co.uk/" title="Home" rel="home">
+<img class="logo-desktop" src="./index_files/logo.png" alt="Logo">
+<img class="logo-mobile" src="./index_files/logo-mobile.png" alt="Logo">
+</a>
+<section class="my-hoppy-link">
+<a href="https://www.hoppy.co.uk/user/register">My Hoppy</a>
+</section>
+<section class="views-exposed-form block block-views block-views-exposed-filter-blocksearch-search-results" data-drupal-selector="views-exposed-form-search-search-results" id="block-exposedformsearchsearch-results">
+<form action="https://www.hoppy.co.uk/search" method="get" id="views-exposed-form-search-search-results" accept-charset="UTF-8" data-drupal-form-fields="edit-fulltext,edit-submit-search" novalidate="novalidate">
+<div class="form--inline form-inline clearfix">
+<div class="form-item js-form-item form-type-search-api-autocomplete js-form-type-search-api-autocomplete form-item-fulltext js-form-item-fulltext form-no-label form-group form-autocomplete">
+<label for="edit-fulltext" class="control-label sr-only">Search</label>
+<div class="input-group"><input data-drupal-selector="edit-fulltext" data-search-api-autocomplete-search="search" class="form-autocomplete form-text form-control ui-autocomplete-input" data-autocomplete-path="/search_api_autocomplete/search?display=search_results&amp;&amp;filter=fulltext" data-msg-maxlength="This field field has a maximum length of 128." type="text" id="edit-fulltext" name="fulltext" value="" size="30" maxlength="128" placeholder="Search Hoppy" autocomplete="off"><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh ajax-progress ajax-progress-throbber" aria-hidden="true"></span></span></div>
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions--2"><button data-drupal-selector="edit-submit-search" class="button js-form-submit form-submit btn-default btn" type="submit" id="edit-submit-search" value="" name=""></button></div>
+</div>
+</form>
+</section>
+</div>
+<a class="search-trigger"></a>
+<div class="hamburger"></div>
+</div>
+<div class="menus-region">
+<div class="region region-header">
+<section class="my-hoppy-link">
+ <a href="https://www.hoppy.co.uk/user/register">My Hoppy</a>
+</section>
+<nav role="navigation" aria-labelledby="block-hoppy-account-menu-menu" id="block-hoppy-account-menu">
+<h2 class="sr-only" id="block-hoppy-account-menu-menu">User account menu</h2>
+<div class="user-menu-icon"></div>
+<ul>
+<li>
+<a href="https://www.hoppy.co.uk/user/login" class="user-login-popup" data-drupal-link-system-path="user/login">Log in</a>
+</li>
+</ul>
+</nav>
+<section id="block-megamenu" class="block block-colossal-menu block-colossal-menu-blockmega-menu">
+<div class="back-to-main-menu"><span class="arrow-left"></span>Back to main menu</div>
+<ul class="hoppy-mega-menu-parent"><li class="my-hoppy"><a href="https://www.hoppy.co.uk/user/login" class="user-login-popup"><span class="user-menu-icon"></span>Log in</a></li><li class="my-hoppy"><span class="caret"></span><a href="https://www.hoppy.co.uk/update-goodbye"><span class="user-menu-icon"></span>My Hoppy</a><ul class="menu menu--dashboard-menu nav">
+<li>
+<a href="https://www.hoppy.co.uk/home/dashboard" icon="dashboard" data-drupal-link-system-path="node/1124">Home</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/home/my-quotes" target="_self" icon="save_money" data-drupal-link-system-path="node/1126">My energy quotes</a>
+ </li>
+<li>
+<a href="https://www.hoppy.co.uk/home/my-tv-broadband" icon="broadband" data-drupal-link-system-path="node/1121">My TV &amp; broadband</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/home/my-mobile" icon="mobile" data-drupal-link-system-path="node/1178">My mobile</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/home/improve-my-home" target="_self" icon="manage_your_home" data-drupal-link-system-path="node/1134">My trades</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/home/finance-my-home" target="_self" icon="your_neighborhood" data-drupal-link-system-path="node/1128">My mortgage</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/home/my-neighbourhood" icon="your_home" data-drupal-link-system-path="node/1122">My neighbourhood</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/home/garage" icon="garage" data-drupal-link-system-path="node/1211">My car</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/home/my-profile" target="_self" icon="profile" data-drupal-link-system-path="node/1125">My profile</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/home/my-hoppy-rewards" target="_self" icon="rewards" data-drupal-link-system-path="node/1127">My rewards</a>
+</li>
+</ul></li>
+<li class="link-trades">
+<a href="https://www.hoppy.co.uk/trades" data-drupal-link-system-path="node/1375">Trades</a>
+</li>
+<li class="link-energy">
+<a href="https://www.hoppy.co.uk/energy" data-drupal-link-system-path="node/1373">Energy</a>
+</li>
+<li class="link-broadband-tv">
+<a href="https://www.hoppy.co.uk/tv-broadband" data-drupal-link-system-path="node/1377">Broadband &amp; TV</a>
+</li>
+<li class="link-mobile">
+<a href="https://www.hoppy.co.uk/mobile" data-drupal-link-system-path="node/1376">Mobile</a>
+</li>
+<li class="link-insurance">
+<a href="https://www.hoppy.co.uk/insurance" data-drupal-link-system-path="node/1372">Insurance</a>
+</li>
+<li class="link-mortgages">
+<a href="https://www.hoppy.co.uk/mortgages" data-drupal-link-system-path="node/1374">Mortgages</a>
+</li>
+<li class="link-help menu-item--expanded"><span class="caret"></span>
+<a href="https://www.hoppy.co.uk/our-community" data-drupal-link-system-path="node/605">Community</a>
+<div class="field field--name-field-mi-blocks field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item">
+<div class="mega-menu-column-title"><span class="caret"></span>
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/winners">Competitions</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/winners"><img src="./index_files/copy_of_vpt_-_you_get_a_voucher_gif.png" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="field--item">
+<div class="mega-menu-column-title"><span class="caret"></span>
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/our-community">Meet the Team</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/our-community"><img src="./index_files/meet_team_3.jpg" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="field--item">
+<div class="mega-menu-column-title"><span class="caret"></span>
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/blog">Guides</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/blog"><img src="./index_files/guides.jpg" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="field--item">
+<div class="mega-menu-column-title"><span class="caret"></span>
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/join-in">Join In</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/join-in"><img src="./index_files/join_in.jpg" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="field--item">
+<div class="mega-menu-column-title"><span class="caret"></span>
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/moving-house-hoppy-homepage">Moving House</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/moving-house-hoppy-homepage"><img src="./index_files/shutterstock_304637168.jpg" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</section>
+<nav role="navigation" aria-labelledby="block-dashboardmenu-2-menu" id="block-dashboardmenu-2">
+<h2 class="visually-hidden" id="block-dashboardmenu-2-menu">Dashboard menu</h2>
+
+</nav>
+</div>
+</div>
+</div>
+</header>
+<div id="navigation" class="navigation-area">
+<div class="navigation__inner container hoppy-desktop-mega-menu">
+<div class="region region-navigation">
+<section id="block-megamenu-2" class="block block-colossal-menu block-colossal-menu-blockmega-menu">
+<div class="back-to-main-menu"><span class="arrow-left"></span>Back to main menu</div>
+<ul class="hoppy-mega-menu-parent">
+<li class="link-trades active">
+<a href="https://www.hoppy.co.uk/trades" data-drupal-link-system-path="node/1375">Trades</a>
+</li>
+<li class="link-energy">
+<a href="https://www.hoppy.co.uk/energy" data-drupal-link-system-path="node/1373">Energy</a>
+</li>
+<li class="link-broadband-tv">
+<a href="https://www.hoppy.co.uk/tv-broadband" data-drupal-link-system-path="node/1377">Broadband &amp; TV</a>
+</li>
+<li class="link-mobile">
+<a href="https://www.hoppy.co.uk/mobile" data-drupal-link-system-path="node/1376">Mobile</a>
+</li>
+<li class="link-insurance">
+<a href="https://www.hoppy.co.uk/insurance" data-drupal-link-system-path="node/1372">Insurance</a>
+</li>
+<li class="link-mortgages">
+<a href="https://www.hoppy.co.uk/mortgages" data-drupal-link-system-path="node/1374">Mortgages</a>
+</li>
+<li class="link-help">
+<a href="https://www.hoppy.co.uk/our-community" data-drupal-link-system-path="node/605">Community</a>
+<div class="field field--name-field-mi-blocks field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item">
+<div class="mega-menu-column-title">
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/winners">Competitions</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/winners"><img src="./index_files/copy_of_vpt_-_you_get_a_voucher_gif.png" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="field--item">
+<div class="mega-menu-column-title">
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/our-community">Meet the Team</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/our-community"><img src="./index_files/meet_team_3.jpg" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="field--item">
+<div class="mega-menu-column-title">
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/blog">Guides</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/blog"><img src="./index_files/guides.jpg" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="field--item">
+<div class="mega-menu-column-title">
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/join-in">Join In</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/join-in"><img src="./index_files/join_in.jpg" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="field--item">
+<div class="mega-menu-column-title">
+<div class="field field--name-field-mm-card-title field--type-string field--label-hidden field--item"><a href="https://www.hoppy.co.uk/moving-house-hoppy-homepage">Moving House</a></div>
+</div>
+<div class="mega-menu-columns">
+<div class="group-left">
+<div class="field field--name-field-mm-left-column field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="paragraph paragraph--type--image paragraph--view-mode--menu">
+<div class="field field--name-field-paragraph-image field--type-entity-reference field--label-hidden field--item"> <a href="https://www.hoppy.co.uk/moving-house-hoppy-homepage"><img src="./index_files/shutterstock_304637168.jpg" width="200" height="150" typeof="Image" class="img-responsive"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</section>
+<section class="views-exposed-form block block-views block-views-exposed-filter-blocksearch-search-results" data-drupal-selector="views-exposed-form-search-search-results" id="block-exposedformsearchsearch-results-2">
+<form action="https://www.hoppy.co.uk/search" method="get" id="views-exposed-form-search-search-results" accept-charset="UTF-8" data-drupal-form-fields="edit-fulltext--2,edit-submit-search--2" novalidate="novalidate">
+<div class="form--inline form-inline clearfix">
+<div class="form-item js-form-item form-type-search-api-autocomplete js-form-type-search-api-autocomplete form-item-fulltext js-form-item-fulltext form-no-label form-group form-autocomplete">
+<label for="edit-fulltext--2" class="control-label sr-only">Search</label>
+<div class="input-group"><input data-drupal-selector="edit-fulltext" data-search-api-autocomplete-search="search" class="form-autocomplete form-text form-control ui-autocomplete-input" data-autocomplete-path="/search_api_autocomplete/search?display=search_results&amp;&amp;filter=fulltext" data-msg-maxlength="This field field has a maximum length of 128." type="text" id="edit-fulltext--2" name="fulltext" value="" size="30" maxlength="128" placeholder="Search Hoppy" autocomplete="off"><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh ajax-progress ajax-progress-throbber" aria-hidden="true"></span></span></div>
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions--3"><button data-drupal-selector="edit-submit-search-2" class="button js-form-submit form-submit btn-default btn" type="submit" id="edit-submit-search--2" value="" name=""></button></div>
+</div>
+</form>
+</section>
+</div>
+<span class="search-icon"></span>
+</div>
+</div>
+<div class="main-container">
+<div>
+<div class="content-row clearfix">
+<section class="main-content-column col-sm-12">
+<div class="page-info">
+<a id="main-content" tabindex="-1"></a>
+</div>
+<div class="region region-content">
+<article role="article" about="/update-goodbye" class="landing-page full clearfix">
+<div class="content">
+<div class="field field--name-field-cards field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item">
+<div class="paragraph paragraph--type--single-column paragraph--view-mode--full" data-src="">
+<div class="container">
+<div class="single-column-paragraph-box">
+<div class="single-column-paragraph-description">
+<div class="field field--name-field-text field--type-text-long field--label-hidden field--item"><p class="text-align-center">Hoppy’s website, products and services ceased on 30th September 2020 and are no longer accessible here.</p>
+<p class="text-align-center">&nbsp;Hoppy became part of <a href="https://smarthomestore.edfenergy.com/pages/hoppy-sign-up" target="_self">EDF Smart Home Store</a>. Please follow the link below if you wish to find out more.&nbsp;</p>
+<p class="text-align-center"><a class="btn-green" href="https://smarthomestore.edfenergy.com/pages/hoppy-sign-up" target="_self">Take me to EDF Smart Home store&nbsp;</a></p>
+<p class="text-align-center">A big thank you for being part of the Hoppy home community and please continue to look after each other.</p>
+<p class="text-align-center">If your energy switch is in progress&nbsp;please get in touch with EHL, our switching provider directly on&nbsp;<a href="tel:08006343868" target="_blank">0800 634 3868</a>&nbsp;or via email:&nbsp;<a href="mailto:customerservices@energyhelpline.com" target="_blank">customerservices@energyhelpline.com</a>.</p>
+<p class="text-align-center">If your TV Broadband or Mobile switch is in progress please get in touch with your new supplier directly.&nbsp;</p>
+<p class="text-align-center">If you raised a trades job request, please contact Rated People.</p></div>
+</div>
+<div class="single-column-paragraph-link"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div id="footerwrap">
+<footer class="footer">
+<div class="container">
+<div class="region region-footer">
+<section id="block-services" class="block footer-nav col-sm-2 block-menu-block block-menu-blockservices">
+<h2>Services</h2>
+<ul class="menu menu--services nav">
+<li>
+<a href="https://www.hoppy.co.uk/trades">Trades</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/energy" data-drupal-link-system-path="node/1373">Energy</a>
+</li>
+</ul>
+</section>
+<section id="block-morefromus" class="block footer-nav col-sm-2 block-menu-block block-menu-blockmore-from-us">
+<h2>More from us</h2>
+<ul class="menu menu--more-from-us nav">
+<li>
+<a href="https://www.hoppy.co.uk/free-home-resources">Free Home Resources</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/blog">Guides</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/our-community">Community</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/about-us" data-drupal-link-system-path="node/105">About us</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/media" data-drupal-link-system-path="node/263">Press</a>
+</li>
+</ul>
+</section>
+<section id="block-customer" class="block footer-nav col-sm-2 block-menu-block block-menu-blockcustomer">
+<h2>Customer</h2>
+<ul class="menu menu--customer nav">
+<li>
+<a href="https://www.hoppy.co.uk/contact-us" data-drupal-link-system-path="node/106">Contact Us</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/dashboard">My Hoppy</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/terms-conditions" data-drupal-link-system-path="node/103">Terms &amp; Conditions</a>
+</li>
+<li>
+<a href="https://www.hoppy.co.uk/privacy-cookie-policy" data-drupal-link-system-path="node/104">Privacy &amp; Cookies</a>
+</li>
+</ul>
+</section>
+<section id="block-hoppysocial" class="block block-block-content block-block-content9376cb10-9312-49aa-a85a-a9a6b121edaf">
+<div class="logo-img">
+<img src="./index_files/logo-sans-tag.svg" alt="">
+</div>
+<div class="field field--name-field-social-links field--type-entity-reference-revisions field--label-hidden field--items">
+<div class="field--item"> <div class="layout layout--onecol">
+<div class="layout__region layout__region--content">
+<div class="field field--name-social-links field--type-ds field--label-hidden field--item"><a href="https://www.facebook.com/HoppyatHome/" class="social-link social-link-facebook" target="_blank">Facebook</a></div>
+</div>
+</div>
+</div>
+<div class="field--item"> <div class="layout layout--onecol">
+<div class="layout__region layout__region--content">
+<div class="field field--name-social-links field--type-ds field--label-hidden field--item"><a href="https://twitter.com/HoppyHome" class="social-link social-link-twitter" target="_blank">Twitter</a></div>
+</div>
+</div>
+</div>
+<div class="field--item"> <div class="layout layout--onecol">
+<div class="layout__region layout__region--content">
+<div class="field field--name-social-links field--type-ds field--label-hidden field--item"><a href="https://www.linkedin.com/company/hoppy_uk/" class="social-link social-link-linkedin" target="_blank">Linkedin</a></div>
+</div>
+</div>
+</div>
+<div class="field--item"> <div class="layout layout--onecol">
+<div class="layout__region layout__region--content">
+<div class="field field--name-social-links field--type-ds field--label-hidden field--item"><a href="https://www.instagram.com/hoppyathome/" class="social-link social-link-instagram" target="_blank">Instagram</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</footer>
+<footer id="copy-footer">
+<div class="footer-copy container">
+<p class="">© Hoppy 2020. All rights reserved</p>
+</div>
+</footer>
+</div>
+</div>
+<div id="popups">
+<div class="region region-popups">
+<section id="block-userloginpopup" class="block block-hoppy-registration block-user-login-popup">
+<div id="user-login-form-wrapper"><form class="user-login-form" data-drupal-selector="user-login-form" action="https://www.hoppy.co.uk/update-goodbye?destination=/update-goodbye" method="post" id="user-login-form" accept-charset="UTF-8" data-drupal-form-fields="edit-name,edit-pass,edit-feed-me--2,edit-submit--2" novalidate="novalidate">
+<div class="form-item js-form-item form-type-email js-form-type-email form-item-name js-form-item-name form-group">
+<label for="edit-name" class="control-label js-form-required form-required">E-mail</label>
+<input autocorrect="none" autocapitalize="none" spellcheck="false" data-drupal-selector="edit-name" class="form-email required form-control" data-msg-maxlength="E-mail field has a maximum length of 254." data-msg-required="E-mail is required." data-msg-email="E-mail does not contain a valid email." type="email" id="edit-name" name="name" value="" size="15" maxlength="254" placeholder="Email" required="required" aria-required="true" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAXtJREFUOBGVUj2LwkAUnIjBICIIKe8gWKRKo2BvYXMgWNlYWZ3gn1B/htekibWVcH1aIVV+wQULCxsRtMrtrGYv8RLUB8nuvjczu+9DWywWH3EcL8X3jidM07QfAfucz+ffhJdeIZNwu+iLexoFnrr5Cr/+05xSOvBoX61WYdt2BvaSgGVZ6PV6+QKGYahApVKBKJY6p2PKeduUufb7fbTbbaxWKxwOB0ynU+x2O7ium4ndk3l+KYU8AW02m8UM8Jnn81limMLlcsnDK59IMRKHiXpBQibiEZkY0co3sSxlDegoMsdx0O12Ua/XEUUR1us1jsejhFNEvaBIgK07nU4IwxDNZhOdTicDLXO205OViYrDZrORLg5Qq9VSdUpwJSEwoUjiuF+FOEzTxGAwwH6/x3a7zUD+piXjBpLukDwej2XenufJdNLQhzUYjUao1WpoNBpywIbDYZqPwi6wz6xyEATQdV2ROKmJEVMoIECszdL3ffb7n5EsnJNf8S6HAZZBgLIAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off">
+</div>
+<div class="form-item js-form-item form-type-password js-form-type-password form-item-pass js-form-item-pass form-group">
+<label for="edit-pass" class="control-label js-form-required form-required">Password</label>
+<input data-drupal-selector="edit-pass" class="form-text required form-control" data-msg-maxlength="Password field has a maximum length of 128." data-msg-required="Password is required." type="password" id="edit-pass" name="pass" size="15" maxlength="128" placeholder="Password" required="required" aria-required="true" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAXtJREFUOBGVUj2LwkAUnIjBICIIKe8gWKRKo2BvYXMgWNlYWZ3gn1B/htekibWVcH1aIVV+wQULCxsRtMrtrGYv8RLUB8nuvjczu+9DWywWH3EcL8X3jidM07QfAfucz+ffhJdeIZNwu+iLexoFnrr5Cr/+05xSOvBoX61WYdt2BvaSgGVZ6PV6+QKGYahApVKBKJY6p2PKeduUufb7fbTbbaxWKxwOB0ynU+x2O7ium4ndk3l+KYU8AW02m8UM8Jnn81limMLlcsnDK59IMRKHiXpBQibiEZkY0co3sSxlDegoMsdx0O12Ua/XEUUR1us1jsejhFNEvaBIgK07nU4IwxDNZhOdTicDLXO205OViYrDZrORLg5Qq9VSdUpwJSEwoUjiuF+FOEzTxGAwwH6/x3a7zUD+piXjBpLukDwej2XenufJdNLQhzUYjUao1WpoNBpywIbDYZqPwi6wz6xyEATQdV2ROKmJEVMoIECszdL3ffb7n5EsnJNf8S6HAZZBgLIAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off">
+</div>
+<input autocomplete="off" data-drupal-selector="form-rnc-n5-aaq6h2-ecv3pr3z2dclclltuhab1etkwc1i8" type="hidden" name="form_build_id" value="form-rNc_N5-AAq6H2_eCV3pr3z2DclCLlTuHaB1Etkwc1I8"><input data-drupal-selector="edit-user-login-form" type="hidden" name="form_id" value="user_login_form"><div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-feed-me js-form-item-feed-me form-group">
+<label for="edit-feed-me--2" class="control-label">Feed me</label>
+<input class="feed_me_textfield form-text form-control" data-drupal-selector="edit-feed-me" data-msg-maxlength="Feed me field has a maximum length of 128." type="text" id="edit-feed-me--2" name="feed_me" value="" size="60" maxlength="128" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAXtJREFUOBGVUj2LwkAUnIjBICIIKe8gWKRKo2BvYXMgWNlYWZ3gn1B/htekibWVcH1aIVV+wQULCxsRtMrtrGYv8RLUB8nuvjczu+9DWywWH3EcL8X3jidM07QfAfucz+ffhJdeIZNwu+iLexoFnrr5Cr/+05xSOvBoX61WYdt2BvaSgGVZ6PV6+QKGYahApVKBKJY6p2PKeduUufb7fbTbbaxWKxwOB0ynU+x2O7ium4ndk3l+KYU8AW02m8UM8Jnn81limMLlcsnDK59IMRKHiXpBQibiEZkY0co3sSxlDegoMsdx0O12Ua/XEUUR1us1jsejhFNEvaBIgK07nU4IwxDNZhOdTicDLXO205OViYrDZrORLg5Qq9VSdUpwJSEwoUjiuF+FOEzTxGAwwH6/x3a7zUD+piXjBpLukDwej2XenufJdNLQhzUYjUao1WpoNBpywIbDYZqPwi6wz6xyEATQdV2ROKmJEVMoIECszdL3ffb7n5EsnJNf8S6HAZZBgLIAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off">
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions--4"><button data-drupal-selector="edit-submit" class="button js-form-submit form-submit btn-primary btn" type="submit" id="edit-submit--2" name="op" value="Log in">Log in</button></div>
+</form>
+<span class="nudges"><a href="https://www.hoppy.co.uk/user/password" class="reset-password">Forgotten your password?</a> · <a href="https://www.hoppy.co.uk/user/register" class="user-register">Sign up for Hoppy</a></span></div>
+<div class="social-links">
+<div class="social-login">
+<h3>Or login faster via</h3>
+<ul>
+<li>
+<a class="social-login facebook" href="https://www.hoppy.co.uk/user/login/facebook">
+facebook
+</a>
+</li>
+<li>
+<a class="social-login google" href="https://www.hoppy.co.uk/user/login/google">
+google
+</a>
+</li>
+<li>
+<a class="social-login linkedin" href="https://www.hoppy.co.uk/user/login/linkedin">
+linkedin
+</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="user-register-form user-form block block-hoppy-registration block-user-register-block" data-user-info-from-browser="" data-drupal-selector="user-register-form" id="block-userregisterpopupblock">
+<div id="user-register-form-wrapper"><form action="https://www.hoppy.co.uk/update-goodbye" method="post" id="user-register-form" accept-charset="UTF-8" data-drupal-form-fields="edit-field-full-name,edit-mail,edit-pass-pass1,edit-pass-pass2,edit-field-email-marketing-consent-value,edit-promo-code,edit-feed-me--3,edit-submit--3" novalidate="novalidate">
+<div class="step-1"><div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-field-full-name js-form-item-field-full-name form-no-label form-group">
+<input data-drupal-selector="edit-field-full-name" class="form-text required form-control" data-msg-maxlength="This field field has a maximum length of 128." data-msg-required="This field is required." type="text" id="edit-field-full-name" name="field_full_name" value="" size="60" maxlength="128" placeholder="Your name" required="required" aria-required="true" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+</div>
+<div class="text-align-center"><span class="hoppy-button hoppy-button--small hoppy-button--yellow hoppy-button--icon next-step hoppy-button--arrow-black">Press to proceed</span></div>
+<div class="social-links">
+<div class="social-login">
+<h3>Or register quickly via</h3>
+<ul>
+<li>
+<a class="social-login facebook" href="https://www.hoppy.co.uk/user/login/facebook">
+facebook
+</a>
+</li>
+<li>
+<a class="social-login google" href="https://www.hoppy.co.uk/user/login/google">
+google
+</a>
+</li>
+<li>
+<a class="social-login linkedin" href="https://www.hoppy.co.uk/user/login/linkedin">
+linkedin
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div><input autocomplete="off" data-drupal-selector="form-idkgdnpdhr6sh2suy8lmnoe0acf3wjw7x5gmjjjptye" type="hidden" name="form_build_id" value="form-IdKgdnpDHr6sh2sUy8lmNoE0aCf3wjw7X5GmJJJptyE"><input data-drupal-selector="edit-user-register-form" type="hidden" name="form_id" value="user_register_form"><div class="step-2"><span class="step-back"></span><div data-drupal-selector="edit-account" class="form-group js-form-wrapper form-wrapper" id="edit-account"><div class="form-item js-form-item form-type-email js-form-type-email form-item-mail js-form-item-mail form-no-label form-group">
+<input placeholder="Email" data-drupal-selector="edit-mail" aria-describedby="edit-mail--description" class="form-email required form-control" data-msg-maxlength="E-mail field has a maximum length of 254." data-msg-required="E-mail is required." data-msg-email="E-mail does not contain a valid email." type="email" id="edit-mail" name="mail" value="" size="60" maxlength="254" required="required" aria-required="true" title="" data-toggle="tooltip" data-original-title="A valid email address. All emails from the system will be sent to this address. The email address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by email.">
+</div>
+<div id="edit-pass--2" class="form-item js-form-item form-type-password-confirm js-form-type-password-confirm form-item-pass js-form-item-pass form-no-label form-group">
+<div class="form-item js-form-item form-type-password js-form-type-password form-item-pass-pass1 js-form-item-pass-pass1 form-no-label form-group password-parent">
+<label for="edit-pass-pass1" class="control-label sr-only js-form-required form-required">Password</label>
+<input class="password-field js-password-field form-text required form-control" autocomplete="new-password" placeholder="New password" data-toggle="tooltip" title="" data-drupal-selector="edit-pass-pass1" data-msg-maxlength="Password field has a maximum length of 128." data-msg-required="Password is required." type="password" id="edit-pass-pass1" name="pass[pass1]" size="25" maxlength="128" required="required" aria-required="true" data-original-title="Passwords should contain: at least 8 characters, 1 lowercase letter, 1 uppercase letter and 1 special character (!£$*%#)&quot;" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIUlEQVQ4EX2TOYhTURSG87IMihDsjGghBhFBmHFDHLWwSqcikk4RRKJgk0KL7C8bMpWpZtIqNkEUl1ZCgs0wOo0SxiLMDApWlgOPrH7/5b2QkYwX7jvn/uc//zl3edZ4PPbNGvF4fC4ajR5VrNvt/mo0Gr1ZPOtfgWw2e9Lv9+chX7cs64CS4Oxg3o9GI7tUKv0Q5o1dAiTfCgQCLwnOkfQOu+oSLyJ2A783HA7vIPLGxX0TgVwud4HKn0nc7Pf7N6vV6oZHkkX8FPG3uMfgXC0Wi2vCg/poUKGGcagQI3k7k8mcp5slcGswGDwpl8tfwGJg3xB6Dvey8vz6oH4C3iXcFYjbwiDeo1KafafkC3NjK7iL5ESFGQEUF7Sg+ifZdDp9GnMF/KGmfBdT2HCwZ7TwtrBPC7rQaav6Iv48rqZwg+F+p8hOMBj0IbxfMdMBrW5pAVGV/ztINByENkU0t5BIJEKRSOQ3Aj+Z57iFs1R5NK3EQS6HQqF1zmQdzpFWq3W42WwOTAf1er1PF2USFlC+qxMvFAr3HcexWX+QX6lUvsKpkTyPSEXJkw6MQ4S38Ljdbi8rmM/nY+CvgNcQqdH6U/xrYK9t244jZv6ByUOSiDdIfgBZ12U6dHEHu9TpdIr8F0OP692CtzaW/a6y3y0Wx5kbFHvGuXzkgf0xhKnPzA4UTyaTB8Ph8AvcHi3fnsrZ7Wore02YViqVOrRXXPhfqP8j6MYlawoAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+</div>
+<div class="form-item js-form-item form-type-password js-form-type-password form-item-pass-pass2 js-form-item-pass-pass2 form-no-label form-group confirm-parent">
+<label for="edit-pass-pass2" class="control-label sr-only js-form-required form-required">Confirm password</label>
+<input class="password-confirm js-password-confirm form-text required form-control" autocomplete="new-password" placeholder="Confirm New password" data-toggle="tooltip" title="" data-drupal-selector="edit-pass-pass2" data-msg-maxlength="Confirm password field has a maximum length of 128." data-msg-required="Confirm password is required." type="password" id="edit-pass-pass2" name="pass[pass2]" size="25" maxlength="128" required="required" aria-required="true" data-original-title="Passwords should contain: at least 8 characters, 1 lowercase letter, 1 uppercase letter and 1 special character (!£$*%#)&quot;" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIUlEQVQ4EX2TOYhTURSG87IMihDsjGghBhFBmHFDHLWwSqcikk4RRKJgk0KL7C8bMpWpZtIqNkEUl1ZCgs0wOo0SxiLMDApWlgOPrH7/5b2QkYwX7jvn/uc//zl3edZ4PPbNGvF4fC4ajR5VrNvt/mo0Gr1ZPOtfgWw2e9Lv9+chX7cs64CS4Oxg3o9GI7tUKv0Q5o1dAiTfCgQCLwnOkfQOu+oSLyJ2A783HA7vIPLGxX0TgVwud4HKn0nc7Pf7N6vV6oZHkkX8FPG3uMfgXC0Wi2vCg/poUKGGcagQI3k7k8mcp5slcGswGDwpl8tfwGJg3xB6Dvey8vz6oH4C3iXcFYjbwiDeo1KafafkC3NjK7iL5ESFGQEUF7Sg+ifZdDp9GnMF/KGmfBdT2HCwZ7TwtrBPC7rQaav6Iv48rqZwg+F+p8hOMBj0IbxfMdMBrW5pAVGV/ztINByENkU0t5BIJEKRSOQ3Aj+Z57iFs1R5NK3EQS6HQqF1zmQdzpFWq3W42WwOTAf1er1PF2USFlC+qxMvFAr3HcexWX+QX6lUvsKpkTyPSEXJkw6MQ4S38Ljdbi8rmM/nY+CvgNcQqdH6U/xrYK9t244jZv6ByUOSiDdIfgBZ12U6dHEHu9TpdIr8F0OP692CtzaW/a6y3y0Wx5kbFHvGuXzkgf0xhKnPzA4UTyaTB8Ph8AvcHi3fnsrZ7Wore02YViqVOrRXXPhfqP8j6MYlawoAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+<div aria-live="polite" aria-atomic="true" class="password-confirm-message js-password-confirm-message">Passwords match: <span></span></div></div>
+</div>
+</div>
+<div class="field--type-boolean field--name-field-email-marketing-consent field--widget-boolean-checkbox form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-email-marketing-consent-wrapper" id="edit-field-email-marketing-consent-wrapper"><div class="form-item js-form-item form-type-checkbox js-form-type-checkbox form-item-field-email-marketing-consent-value js-form-item-field-email-marketing-consent-value checkbox">
+<input data-drupal-selector="edit-field-email-marketing-consent-value" class="form-checkbox" type="checkbox" id="edit-field-email-marketing-consent-value" name="field_email_marketing_consent[value]" value="1">
+<label for="edit-field-email-marketing-consent-value" class="control-label option">Subscribe to offers and deals</label>
+</div>
+</div>
+<div class="open-promo-code cursor-pointer">Add promo code</div><div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-promo-code js-form-item-promo-code form-no-label form-group">
+<label for="edit-promo-code" class="control-label sr-only">Promo code (optional)</label>
+<input placeholder="Promo code (optional)" autocomplete="off" data-drupal-selector="edit-promo-code" class="form-text form-control" data-msg-maxlength="Promo code (optional) field has a maximum length of 128." type="text" id="edit-promo-code" name="promo_code" value="" size="60" maxlength="128">
+</div>
+<div class="offer marketing-offer active">
+<div class="offer-icon"><img src="./index_files/offers_icon.svg"></div>
+<div class="offer-content">
+<div class="offer-text">Be the first to know about new offers from Hoppy!</div>
+<div class="offer-actions">
+<div class="offer-accept">
+<span class="checkbox-button"></span>
+<span class="text">Yes, I'd love that.</span>
+</div>
+</div>
+</div>
+</div>
+<p class="terms-and-conditions">By clicking 'Register' you agree to the <a href="https://www.hoppy.co.uk/terms-conditions">Terms of use policy</a> and <a href="https://www.hoppy.co.uk/privacy-cookie-policy">Privacy policy.</a></p><div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-feed-me js-form-item-feed-me form-group">
+<label for="edit-feed-me--3" class="control-label">Feed me</label>
+<input class="feed_me_textfield form-text form-control" data-drupal-selector="edit-feed-me" data-msg-maxlength="Feed me field has a maximum length of 128." type="text" id="edit-feed-me--3" name="feed_me" value="" size="60" maxlength="128">
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions--5"><button data-drupal-selector="edit-submit" class="button button--primary js-form-submit form-submit btn-primary btn" type="submit" id="edit-submit--3" name="op" value="Register">Register</button></div>
+
+</div></form>
+</div></section>
+</div>
+</div>
+</div>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1378","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"ajax_loader\/ajax_loader.throbber,anchor_link\/drupal.anchor_link,bootstrap\/popover,calendar\/calendar.theme,ckeditor_accordion\/accordion_style,ckeditor_bootstrap_tabs\/tabs,clientside_validation_jquery\/cv.jquery.ckeditor,clientside_validation_jquery\/cv.jquery.ife,clientside_validation_jquery\/cv.jquery.validate,cookie_content_blocker\/cookie-content-blocker,core\/drupal.form,core\/html5shiv,core\/jquery.form,core\/jquery.ui.dialog,datalayer\/behaviors,hoppy\/bootstrap-js,hoppy\/global-css,hoppy\/global-js,hoppy\/trustpilot-js,hoppy_redirects\/ga_code,hoppy_registration\/registrationCheck,hoppy_registration\/user_login_popup,hoppy_registration\/user_register_popup,hoppy_tour\/tour,hoppy_user\/user_login_submit,layout_discovery\/onecol,lazy\/lazy,legal\/modal,paragraphs\/drupal.paragraphs.unpublished,search_api_autocomplete\/search_api_autocomplete,simple_popup_blocks\/simple_popup_blocks,sms_sendtophone\/default,social_auth\/auth-icons,spamicide\/spamicide,system\/base,user\/drupal.user","theme":"hoppy","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/update-goodbye?ajax_form=1":true,"\/search":true},"ajaxLoader":{"markup":"\u003Cdiv class=\u0022ajax-throbber sk-wave\u0022\u003E\n              \u003Cdiv class=\u0022sk-rect sk-rect1\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-rect sk-rect2\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-rect sk-rect3\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-rect sk-rect4\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-rect sk-rect5\u0022\u003E\u003C\/div\u003E\n            \u003C\/div\u003E","hideAjaxMessage":true,"alwaysFullscreen":true,"throbberPosition":"body"},"cookieContentBlocker":{"consentAwareness":{"accepted":{"event":{"name":"cookiesYoutubeConsentGiven","selector":"window"},"cookie":{"operator":"===","name":"cookieYoutubeConsentStatus","value":"allow"}},"declined":{"event":{"name":"click","selector":".cc-deny"},"cookie":{"operator":"===","name":"cookieconsent_status","value":"deny"}},"change":{"event":{"name":"click","selector":".cc-revoke"}}}},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0}}},"feature_toggle":{"enabled":[]},"lazy":{"errorClass":"b-error","loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"selector":".b-lazy","skipClass":"no-b-lazy","src":"data-src","successClass":"b-loaded","validateDelay":"25","placeholderSrc":"data:image\/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="},"simple_popup_blocks":{"settings":[{"pid":"8","identifier":"block-laurajacksonpookyoffer","type":"0","css_selector":"1","layout":"4","visit_counts":"0","overlay":"1","escape":"1","trigger_method":"0","trigger_selector":"#custom-css-id","delay":"3","minimize":"0","close":"1","width":"600","status":"1"}]},"ckeditorAccordion":{"accordionStyle":{"collapseAll":null}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"auto bottom","popover_selector":"","popover_title":"","popover_trigger":"click","popover_trigger_autoclose":1,"tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto bottom","tooltip_selector":"","tooltip_trigger":"hover"},"ajax":{"edit-submit--3":{"callback":"hoppy_registration_user_register_popup_ajax_submit","effect":"fade","wrapper":"user-register-form-wrapper","event":"mousedown","keypress":true,"prevent":"click","url":"\/update-goodbye?ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Register"}},"edit-submit--2":{"callback":"hoppy_registration_ajax_submit","effect":"fade","wrapper":"user-login-form-wrapper","#attributes":{"class":["use-ajax"]},"event":"mousedown","keypress":true,"prevent":"click","url":"\/update-goodbye?ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Log in"}}},"password":{"confirmTitle":"Passwords match:","confirmSuccess":"yes","confirmFailure":"no","showStrengthIndicator":false},"search_api_autocomplete":{"search":{"auto_submit":true}},"hoppyTour":{"tour_2":{"steps":[{"element":"#sb-site \u003E div.main-container \u003E div \u003E div \u003E div.container \u003E section \u003E div.region.region-content \u003E article \u003E div \u003E div:nth-child(1) \u003E div \u003E section","content":"\u003Ch2\u003EWelcome to your tour\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003EIn a few steps, we\u0027ll show you how to get\u0026nbsp;the most out of your dashboard.\u003C\/p\u003E\r\n\u003C\/div\u003E","path":"\/home\/dashboard","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(2) \u003E a","content":"\u003Ch2\u003EGet\u00a0an inside snapshot of your home and local area.\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003E\u003Cbr \/\u003E\r\n- Discover the average cost for homes nearby.\u0026nbsp;\u003Cbr \/\u003E\r\n\u003Cbr \/\u003E\r\n- Never get\u0026nbsp;disappointed with a slow internet connection, our internet checker can tell you\u0026nbsp;how good your local coverage is.\u0026nbsp;\u003Cbr \/\u003E\r\n\u003Cbr \/\u003E\r\n-\u0026nbsp;Crime rate in the area? Check before moving in.\u003Cbr \/\u003E\r\n\u003Cbr \/\u003E\r\n- Planning on having family,\u0026nbsp;we\u0027ll provide with the latest\u0026nbsp;school stats.\u003C\/p\u003E\r\n\u003C\/div\u003E","path":"\/home\/dashboard","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(3) \u003E a","content":"\u003Ch2\u003ERewards\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003EWe\u0027ll send you rewards and\u0026nbsp;discounts to help you run your home cheaply, as well as keeping you up to date\u0026nbsp;with all our competitions!\u003C\/p\u003E\r\n\u003C\/div\u003E","path":"\/home\/dashboard","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(4) \u003E a","content":"\u003Ch2\u003EHome finance\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003ELooking for a new house: check what you should be offering to pay for the\u0026nbsp;house\u0026nbsp;you\u0027re looking to move in to.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ECurious neighbour: investigate\u0026nbsp;how much\u0026nbsp;house next door could be worth?\u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003ELooking to rent a property: calculate the average amount of rent\u0026nbsp;you should be paying in rent\u003C\/p\u003E\r\n\r\n\u003Cp\u003ELandlord: Looking to rent out your place. See how much you could get in rent.\u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003ELearn what mortgage deals are available before filling\u0026nbsp;out a\u0026nbsp;long form\u003C\/p\u003E\r\n\r\n\u003Cdiv\u003E\u0026nbsp;\u003C\/div\u003E\r\n\u003C\/div\u003E","path":"\/home\/dashboard","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(5) \u003E a","content":"\u003Ch2\u003EMy neighbourhood\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003EPlanning on selling sometime: good schools will improve your chances of finding a buyer.\u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003EMoving in\/family with children: keep up to date with the school quality in the area\u003C\/p\u003E\r\n\r\n\u003Cp\u003EHome mover: worried the estate\u0026nbsp;agent isn\u0027t telling you the full story about safety levels in the area, check the latest crime rates to verify.\u003C\/p\u003E\r\n\u003C\/div\u003E","path":"\/home\/dashboard","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(6) \u003E a","content":"\u003Ch2\u003EDoing home improvements \u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003EHome emergency\/improvements: book all your trades in one place.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EWe\u0027ll keep a record of your\u0026nbsp;trades booked so you\u0027ll know whether it\u0027s time to repaint that wall or not.\u003C\/p\u003E\r\n\u003C\/div\u003E","path":"\/home\/dashboard","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(7) \u003E a","content":"\u003Ch2\u003EEnergy quotes\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003EMoney saver: Alerts\u0026nbsp;you when your\u0026nbsp;next energy deal is available.\u003C\/p\u003E\r\n\u003C\/div\u003E","path":"\/home\/dashboard","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(8) \u003E a","content":"\u003Ch2\u003ETV broadband\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003ELooking to switch TVBB for a better rate, we\u0027ll compare 100\u0027s of deals for your area.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ESet a reminder for when your contract is due to finish and switch instantly to a cheaper rate.\u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u0026nbsp;\u003C\/p\u003E\r\n\u003C\/div\u003E","path":"\/home\/dashboard","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(9) \u003E a","content":"\u003Ch2\u003EMobile deals\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003EPlanning on buying\u0026nbsp;a new mobile?\u0026nbsp;We\u0027ll compare\u0026nbsp;100\u0027s of deals for you from\u0026nbsp;contracts to sim only finding what works for you.\u003C\/p\u003E\r\n\u003C\/div\u003E","path":"\/home\/my-mobile","is_last":0},{"element":"#block-dashboardmenu \u003E ul \u003E li:nth-child(10) \u003E a","content":"\u003Ch2\u003EProfile\u003C\/h2\u003E\u003Cdiv class=\u0022content\u0022\u003E\u003Cp\u003EKepp your details up to date and tell us you\u0027re interests so we can make sure we\u0027re contacting you about the right things.\u003C\/p\u003E\r\n\u003C\/div\u003E\u003Cdiv class=\u0022user-login-register-block-simple\u0022\u003E\n    \u003Cform class=\u0022hoppy-simple-form\u0022 data-drupal-selector=\u0022hoppy-simple-form\u0022 action=\u0022form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM\u0022 method=\u0022post\u0022 id=\u0022hoppy-simple-form\u0022 accept-charset=\u0022UTF-8\u0022\u003E\n  \u003Cdiv class=\u0022form-item js-form-item form-type-textfield js-form-type-textfield form-item-email js-form-item-email form-no-label form-group\u0022\u003E\n      \n  \u003Clabel for=\u0022edit-email\u0022 class=\u0022control-label sr-only js-form-required form-required\u0022\u003EEmail\u003C\/label\u003E\n  \n  \n  \u003Cinput data-drupal-selector=\u0022edit-email\u0022 class=\u0022form-text required form-control\u0022 data-msg-maxlength=\u0022Email field has a maximum length of 128.\u0022 data-msg-required=\u0022Email is required.\u0022 type=\u0022text\u0022 id=\u0022edit-email\u0022 name=\u0022email\u0022 value=\u0022\u0022 size=\u002260\u0022 maxlength=\u0022128\u0022 placeholder=\u0022Email\u0022 required=\u0022required\u0022 aria-required=\u0022true\u0022 \/\u003E\n\n  \n  \n  \u003C\/div\u003E\n\u003Cdiv class=\u0022form-item js-form-item form-type-password js-form-type-password form-item-password js-form-item-password form-no-label form-group\u0022\u003E\n      \n  \u003Clabel for=\u0022edit-password\u0022 class=\u0022control-label sr-only js-form-required form-required\u0022\u003EPassword\u003C\/label\u003E\n  \n  \n  \u003Cinput data-drupal-selector=\u0022edit-password\u0022 class=\u0022form-text required form-control\u0022 data-msg-maxlength=\u0022Password field has a maximum length of 128.\u0022 data-msg-required=\u0022Password is required.\u0022 type=\u0022password\u0022 id=\u0022edit-password\u0022 name=\u0022password\u0022 size=\u002260\u0022 maxlength=\u0022128\u0022 placeholder=\u0022Choose a password\u0022 required=\u0022required\u0022 aria-required=\u0022true\u0022 \/\u003E\n\n  \n  \n  \u003C\/div\u003E\n\u003Cdiv class=\u0022password-description-wrapper\u0022\u003EPasswords should contain: at least 8 characters, 1 lowercase letter, 1 uppercase letter and 1 special character (!\u00a3$*%#)\u003C\/div\u003E\u003Cdiv class=\u0022invalid-email-message\u0022\u003EPlease enter a valid email address.\u003C\/div\u003E\u003Cdiv class=\u0022form-item js-form-item form-type-checkbox js-form-type-checkbox form-item-privacy-policy js-form-item-privacy-policy checkbox\u0022\u003E\n  \n  \n  \n\n      \u003Cinput data-drupal-selector=\u0022edit-privacy-policy\u0022 class=\u0022form-checkbox\u0022 type=\u0022checkbox\u0022 id=\u0022edit-privacy-policy\u0022 name=\u0022privacy_policy\u0022 value=\u00221\u0022 \/\u003E\n  \u003Clabel for=\u0022edit-privacy-policy\u0022 class=\u0022control-label option\u0022\u003EEmail me about offers, products and \n        services from Hoppy and partners as described in our \u003Ca href=\u0022\/privacy-cookie-policy\u0022\u003EPrivacy Policy\u003C\/a\u003E.\u003C\/label\u003E\n  \n  \n  \u003C\/div\u003E\n\u003Cbutton data-drupal-selector=\u0022edit-submit\u0022 class=\u0022button js-form-submit form-submit btn-default btn\u0022 type=\u0022submit\u0022 id=\u0022edit-submit\u0022 name=\u0022op\u0022 value=\u0022See the best energy deals for you\u0022\u003ESee the best energy deals for you\u003C\/button\u003E\u003Cinput autocomplete=\u0022off\u0022 data-drupal-selector=\u0022form-3ilpp1k6hqv7j2uxaxitdpeemc8w-gul7fp7q7mq8tq\u0022 type=\u0022hidden\u0022 name=\u0022form_build_id\u0022 value=\u0022form-3iLPp1K6HQV7j2uXAXitdpeeMc8w_gul7fP7Q7mq8tQ\u0022 \/\u003E\u003Cinput data-drupal-selector=\u0022edit-hoppy-simple-form\u0022 type=\u0022hidden\u0022 name=\u0022form_id\u0022 value=\u0022hoppy_simple_form\u0022 \/\u003E\u003Cdiv class=\u0022form-item js-form-item form-type-textfield js-form-type-textfield form-item-feed-me js-form-item-feed-me form-group\u0022\u003E\n      \n  \u003Clabel for=\u0022edit-feed-me\u0022 class=\u0022control-label\u0022\u003EFeed me\u003C\/label\u003E\n  \n  \n  \u003Cinput class=\u0022feed_me_textfield form-text form-control\u0022 data-drupal-selector=\u0022edit-feed-me\u0022 data-msg-maxlength=\u0022Feed me field has a maximum length of 128.\u0022 type=\u0022text\u0022 id=\u0022edit-feed-me\u0022 name=\u0022feed_me\u0022 value=\u0022\u0022 size=\u002260\u0022 maxlength=\u0022128\u0022 \/\u003E\n\n  \n  \n  \u003C\/div\u003E\n\n\u003C\/form\u003E\n\n\u003C\/div\u003E\n\n\n\n","path":"\/home\/dashboard","is_last":1}]}},"user":{"uid":0,"permissionsHash":"e8ad13f0f7bc49ea6805fe4a43117b27a61c9694e0e112e62e4288c087347e9c"}}</script>
+<script src="./index_files/jquery.min.js"></script>
+<script src="./index_files/js_Syzs96ttPwbUvZPF6hwIwp4KZKwLiOEA3ateEYYCJpY.js"></script>
+<script src="./index_files/jquery-ui.min.js"></script>
+<script src="./index_files/js_1plGzCWxHGsjoQyUxtstHKjdxsMhg8M4YrUrVSv73Ow.js"></script>
+<script src="./index_files/iframeResizer.min.js"></script>
+<script src="./index_files/js_zDWGLZMWu47jHG4LBrEzMDckoK-3w6tIbTkFCnaFHLo.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cb0f80067f","applicationID":"167885942","transactionName":"NQFTNRBRW0RVUURRDAxLcAIWWVpZG0JRXwY9B1ACClU=","queueTime":0,"applicationTime":29,"atts":"GUZQQ1hLSEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front search-api-autocomplete-search" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front search-api-autocomplete-search" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><script type="text/javascript" id="" src="./index_files/pa-5a78538446534f00070001c5.js"></script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Hoppy",
+  "url": "https://www.hoppy.co.uk/",
+  "logo": "https://www.hoppy.co.uk/themes/custom/hoppy/images/logo.png",
+  "sameAs": [
+    "https://www.facebook.com/HoppyatHome/",
+    "https://twitter.com/HoppyHome",
+    "https://www.linkedin.com/company/hoppy_uk/"
+  ]
+}
+</script><script type="text/javascript" id="">function setCookie(a,b,d,e){var c=new Date;c.setDate(c.getDate()+d);b=encodeURIComponent(b)+(null==d?"":"; expires\x3d"+c.toUTCString());document.cookie=a+"\x3d"+b+";path\x3d/;domain\x3d"+e}
+function getVar(a){get_string=document.location.search;return_value="";do name_index=get_string.indexOf(a+"\x3d"),-1!=name_index&&(get_string=get_string.substr(name_index+a.length+1,get_string.length-name_index),end_of_value=get_string.indexOf("\x26"),value=-1!=end_of_value?get_string.substr(0,end_of_value):get_string,return_value=""==return_value||""==value?return_value+value:return_value+(", "+value));while(-1!=name_index);for(space=return_value.indexOf("+");-1!=space;)return_value=return_value.substr(0,
+space)+" "+return_value.substr(space+1,return_value.length),space=return_value.indexOf("+");return return_value}var tduid=google_tag_manager["GTM-KBDM446"].macro(6)?google_tag_manager["GTM-KBDM446"].macro(7):getVar("tduid");""!=tduid&&(console.log("UID",tduid),setCookie("TRADEDOUBLER",tduid,"365",".hoppy.co.uk"),setCookie("TRADEDOUBLER",tduid,"365",".energyhelpline.com"));</script><div id="pocket-extension-root"><div class="pocket-egasyq"></div></div><div id="pocket-extension-styles"><style data-emotion="pocket"></style></div><iframe name="__uspapiLocator" tabindex="-1" role="presentation" aria-hidden="true" title="Blank" style="display: none; position: absolute; width: 1px; height: 1px; top: -9999px;" src="./index_files/saved_resource.html"></iframe><iframe tabindex="-1" role="presentation" aria-hidden="true" title="Blank" src="./index_files/bc.min.html" style="position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><script type="text/javascript" id="">(function(b,c,e,f,d){b[d]=b[d]||[];var g=function(){var a={ti:"26006092"};a.q=b[d];b[d]=new UET(a);b[d].push("pageLoad")};var a=c.createElement(e);a.src=f;a.async=1;a.onload=a.onreadystatechange=function(){var b=this.readyState;b&&"loaded"!==b&&"complete"!==b||(g(),a.onload=a.onreadystatechange=null)};c=c.getElementsByTagName(e)[0];c.parentNode.insertBefore(a,c)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","140606243362105");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=140606243362105&amp;ev=PageView&amp;noscript=1"></noscript>
+<iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="./index_files/box-469cf41adb11dc78be68c1ae7f9457a4.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon90192552997"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon187113586960" width="0" height="0" alt="" src="./index_files/0"></div><div id="cookie-renew">Cookies</div></body></html>
